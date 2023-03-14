@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  baseUrl: 'https://angular-auth.azurewebsites.net/'
+  baseUrl: 'http://localhost:9090/api'
 };
