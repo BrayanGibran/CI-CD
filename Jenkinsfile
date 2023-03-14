@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo 'Building Frontend Angular'
                 dir ('gifsApp/'){
+                    bat 'npm install'
                     bat 'npm run build'
                 }
             }
