@@ -1,2 +1,2 @@
 FROM nginx
-COPY mapas/dist /usr/share/nginx/html
+COPY gifsApp/dist /usr/share/nginx/html
