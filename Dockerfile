@@ -1,2 +1,2 @@
 FROM nginx
-COPY authApp/dist /usr/share/nginx/html
+COPY AngularBaseCLI/dist /usr/share/nginx/html

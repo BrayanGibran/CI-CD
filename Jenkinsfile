@@ -4,7 +4,7 @@ pipeline {
         stage('Build Frontend Web') {
             steps {
                 echo 'Building Frontend Angular'
-                dir ('authApp/'){
+                dir ('AngularBaseCLI/'){
                     bat 'npm install'
                     bat 'npm run build'
                 }
